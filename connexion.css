@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+}
+
+/* balises générales */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: white;
+}
+
+/*   ------------connection.html----------   */
+/* ----------------header -------------------*/
+#cadre_header {
+    background: linear-gradient(to bottom right, rgba(0, 0, 102, 0.8), rgba(102, 0, 51, 0.8));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cookies {
+
+    padding-top: 20px;
+    text-align: justify;
+    width: 65%;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+}
+
+#image_container {
+    margin-left: 8%
+}
+
+#carre_de_connexion {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.image_dimension {
+    height: 25px;
+    width: 25px;
+    border-radius: 30em;
+    padding: 20px;
+}
+
+/*---------------- Body----------------*/
+#image_background {
+    /*id du main*/
+    width: 100%;
+    height: 100%;
+    background-image: url('images/samurai_champloo_street.png');
+    background-size: 100%;
+    background-position-x: 90%;
+    background-position-y: 90%;
+}
+
+#panneau_de_connexion {
+    margin-top: 15%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 30%;
+    border: rgba(0, 0, 102, 0.8) 1px solid;
+    height: 25%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 102, 0.5), rgba(102, 0, 51, 0.5));
+}
+
+/*-----------hover connexion bouton------------*/
+.btn-grad {
+    background-image: linear-gradient(to top left, rgba(0, 0, 102, 0.8), rgba(102, 0, 51, 0.8));
+}
+
+.btn-grad {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 10em;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#liens_vers_html {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*-----------------footer------------*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to top left, rgba(0, 0, 102, 0.8), rgba(102, 0, 51, 0.8));
+
+}
+
+.music {
+    border-radius: 1px solid black;
+    width: 30%;
+    margin-left: 20%;
+}
+
+
+/*-------------FIN---------------*/
+/*---------Inscription.html-----*/
+/*---------Same header---------*/
+/*------------body-------------*/
+
+#mise_en_page_form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 1%;
+}
+
+#table_center {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 20px;
+    background-image: linear-gradient(to top left, rgba(0, 0, 102, 0.5), rgba(102, 0, 51, 0.5));
+}
+
+#mise_en_page_bas {
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 20px;
+    background-image: linear-gradient(to top left, rgba(0, 0, 102, 0.5), rgba(102, 0, 51, 0.5));
+}
+
+.flex_td {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.td_center {
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+legend {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.p_center {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#padding_p_center {
+    padding: 20px;
+}
+
+fieldset,
+label,
+legend,
+td {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+label {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+input[type="checkbox"] {
+    margin: 0px 20px;
+}
+
+#section_tr_checkbox {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+
+}
+
+.tr_colonne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*-----------fin------------sticky pour le footer-*/
+/*-----------motdepasse.html----------*/

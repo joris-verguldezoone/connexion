@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="connexion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <!--texte titre-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <!--texte neutre-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--cookies-->
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header id="cadre_header">
+        <div id="cookies">
+            <p>Nous utilisons des cookies pour personnaliser le contenu, ajuster et mesurer les publicités
+                et offrir une
+                expérience plus sûre. En cliquant sur le site ou en le parcourant, vous nous autorisez à collecter des
+                informations sur et en dehors d’Instagram via des cookies. Pour en savoir plus, notamment sur les moyens
+                de contrôle disponibles : Politique d’utilisation des cookies.</p>
+        </div>
+        <div id="image_container">
+            <a href="#table_center"><img class="image_dimension" src="images/croix_quitter.jpg"></a>
+        </div>
+    </header>
+
+
+    <main id="image_background">
+        <form action="connexion.html" method="GET" id="mise_en_page_form">
+            <table id="table_center">
+                <tr>
+                    <td class="flex_td">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex_td">
+                        <label for="prenom">Prenom</label>
+                        <input type="text" id="prenom" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex_td">
+                        <label for="mot_de_passe">Mot de passe</label>
+                        <input type="text" id="mot_de_passe" required>
+                    </td>
+                    <td class="flex_td">
+                        <label for="confirmation_mot_de_passe">Confirmation mdp</label>
+                        <input type="text" id="confirmation_mot_de_passe" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex_td">
+                        <label for="mail">Adresse mail</label>
+                        <input type="email" id="mail" required placeholder="kikoodu13@yahoo.fr">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex_td">
+                        <label for="numero_tel">Téléphone</label>
+                        <input type="tel" value="0797960905" id="numero_tel">
+                    </td>
+                    <td class="flex_td">
+                        <label for="date_de_naissance">Date de naissance</label>
+                        <input type="date" id="date_de_naissance" required>
+                    </td>
+                    <td class="flex_td">
+                        <label for="niveau_d_etude">Niveau d'étude</label>
+                        <select id="niveau_d_etude" required>
+                            <option value="">--Choisir--</option>
+                            <option value="Brevet des colleges">Brevet des colleges</option>
+                            <option value="Bac pro">Bac pro</option>
+                            <option value="Bac général">Bac général</option>
+                            <option value="CAP">CAP</option>
+                            <option value="BEP">BEP</option>
+                            <option value="BTS">BTS</option>
+                            <option value="DUT">DUT</option>
+                            <option value="Licence">Licence</option>
+                            <option value="Master">Master</option>
+                            <option value="Doctorat">Doctorat</option>
+                            <option value="Savant fou">Savant fou</option>=
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p_center">
+                        <legend>Êtes-vous un(e):</legend>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="flex_td">
+                        <label for="genre_biologique">Homme</label>
+                        <input type="radio" id="genre_biologique" name="genre_biologique" required>
+                    </td>
+                    <td class="flex_td">
+                        <label for="genre_biologique">Femme</label>
+                        <input type="radio" id="genre_biologique" name="genre_biologique" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_center" colspan="2">
+                        <label for="presentation_textarea">Présentez vous brièvement :)</label> <br />
+                        <textarea id="presentation_textarea" rows="5" cols="30"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <section id="mise_en_page_bas">
+                <div id="padding_p_center">
+                    <p class="p_center">Quels sont vos hobbies</p>
+                </div>
+                <section id="section_tr_checkbox">
+                    <div class="tr_colonne">
+
+                        <label id="checkbox">Musique</label>
+
+                        <label id="checkbox">Voyage</label>
+
+                        <label id="checkbox">Cuisne</label>
+
+                        <label id="checkbox">Jeux vidéos</label>
+
+                    </div>
+                    <div class="tr_colonne">
+
+                        <input type="checkbox" id="checkbox">
+
+
+                        <input type="checkbox" id="checkbox">
+
+                        <input type="checkbox" id="checkbox">
+                        <input type="checkbox" id="checkbox">
+
+                    </div>
+
+                    <div class="tr_colonne">
+
+                        <label id="checkbox">Sport</label>
+                        <label id="checkbox">Ecriture</label>
+                        <label id="checkbox">Brice de nice</label>
+                        <label id="checkbox">Cinéma</label>
+
+                    </div>
+                    <div class="tr_colonne">
+                        <input type="checkbox" id="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <input type="checkbox" id="checkbox">
+
+                    </div>
+
+                </section>
+                <div id="submit">
+                    <input type="submit">
+                </div>
+            </section>
+        </form>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="music">
+            <div class="lecteur">
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/gM5Vv5OiDz0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <div class="music">
+            <div class="lecteur">
+                <iframe width="200" height="100" src="https://www.youtube.com/embed/GTWz7ugif-Y" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
